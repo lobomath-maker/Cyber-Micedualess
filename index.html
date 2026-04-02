@@ -1,96 +1,14 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Micedualess | Comayagüela</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .gradient-brand { background: linear-gradient(135deg, #e11d48 0%, #3b82f6 100%); }
-        .card-shadow { box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
-    </style>
-</head>
-<body class="bg-slate-50 font-sans">
-
-    <nav class="bg-white/90 backdrop-blur-md border-b border-gray-200 p-4 sticky top-0 z-50 shadow-sm">
-        <div class="container mx-auto flex justify-between items-center">
-            <div class="flex flex-col leading-tight">
-                <h1 class="text-xl font-black italic text-red-700">CYBER MICEDUALESS</h1>
-                <span id="status-indicator" class="text-[10px] font-bold px-2 py-0.5 rounded-full w-max mt-1">Verificando...</span>
-            </div>
-            <div class="flex gap-2">
-                <a href="tel:+50433820697" class="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full transition shadow-lg md:hidden">
-                    <i class="fas fa-phone"></i>
-                </a>
-                <a href="https://wa.me/50433820697" class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-bold transition shadow-md flex items-center gap-2">
-                    <i class="fab fa-whatsapp text-lg"></i> <span class="hidden md:inline">ENVIAR ARCHIVOS</span>
-                </a>
-            </div>
-        </div>
-    </nav>
-
-    <header class="gradient-brand text-white py-12 px-6 text-center shadow-inner">
-        <div class="container mx-auto max-w-3xl">
-            <h2 class="text-3xl md:text-5xl font-black mb-4 uppercase drop-shadow-md italic">¡Rápido y Seguro!</h2>
-            <p class="text-lg md:text-xl font-medium mb-6 opacity-90">Tu cyber de confianza en Comayagüela</p>
-            <div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/20 inline-block">
-                <p class="text-yellow-300 font-bold text-xs uppercase tracking-widest mb-1">Horario de Atención</p>
-                <p class="text-2xl font-mono font-bold italic">8:00 AM — 7:00 PM</p>
-            </div>
-        </div>
-    </header>
-
-    <section class="container mx-auto py-12 px-6">
-        <h3 class="text-2xl font-black text-gray-800 mb-8 border-l-8 border-red-600 pl-4 uppercase">Nuestros Servicios</h3>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            
-            <div class="bg-white p-6 rounded-3xl card-shadow text-center border-t-4 border-green-500">
-                <i class="fas fa-print text-3xl text-green-500 mb-3"></i>
-                <h4 class="font-bold text-sm uppercase text-gray-700">Impresiones</h4>
-                <p class="text-xs text-gray-500 mt-2">B/N: <b>L10</b></p>
-                <p class="text-xs text-gray-500">Color: <b>L15+</b></p>
-            </div>
-
-            <div class="bg-white p-6 rounded-3xl card-shadow text-center border-t-4 border-red-500">
-                <i class="fas fa-copy text-3xl text-red-500 mb-3"></i>
-                <h4 class="font-bold text-sm uppercase text-gray-700">Fotocopias</h4>
-                <p class="text-xs text-gray-500 mt-2">B/N: <b>L2</b></p>
-                <p class="text-xs text-gray-500">Color: <b>L5</b></p>
-            </div>
-
-            <div class="bg-white p-6 rounded-3xl card-shadow text-center border-t-4 border-blue-500">
-                <i class="fas fa-id-card text-3xl text-blue-500 mb-3"></i>
-                <h4 class="font-bold text-sm uppercase text-gray-700">Laminado</h4>
-                <p class="text-lg font-black text-blue-600 mt-2 italic">L30</p>
-            </div>
-
-            <div class="bg-white p-6 rounded-3xl card-shadow text-center border-t-4 border-yellow-500">
-                <i class="fas fa-camera text-3xl text-yellow-500 mb-3"></i>
-                <h4 class="font-bold text-sm uppercase text-gray-700">Fotos</h4>
-                <p class="text-xs text-gray-500 mt-2">Set (6): <b>L40</b></p>
-            </div>
-
-            <div class="bg-white p-6 rounded-3xl card-shadow text-center border-t-4 border-purple-500">
-                <i class="fas fa-scanner text-3xl text-purple-500 mb-3"></i>
-                <h4 class="font-bold text-sm uppercase text-gray-700 italic">Escaneo</h4>
-                <p class="text-[10px] text-green-600 font-bold mt-2">¡Express!</p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="bg-slate-900 py-16 px-6">
+<section class="bg-slate-900 py-16 px-6">
         <div class="container mx-auto">
-            <h3 class="text-3xl font-black text-yellow-400 mb-10 text-center italic uppercase tracking-tighter shadow-yellow-400/20">
+            <h3 class="text-3xl font-black text-yellow-400 mb-10 text-center italic uppercase tracking-tighter">
                 ¡Ofertas Tecnológicas!
             </h3>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
                 <div class="bg-white/10 backdrop-blur-md rounded-3xl p-6 border border-white/10 text-center text-white relative overflow-hidden group">
-                    <div class="bg-white/5 rounded-2xl py-8 mb-4 group-hover:bg-white/10 transition">
-                        <i class="fas fa-headphones text-6xl text-blue-400"></i>
+                    <div class="bg-white/5 rounded-2xl mb-4 group-hover:bg-white/10 transition aspect-square flex items-center justify-center overflow-hidden p-4">
+                        <img src="450bt.jpg" alt="Audífonos Include 450BT" class="max-h-full object-contain transform group-hover:scale-110 transition duration-300">
                     </div>
                     <h4 class="font-bold text-xl uppercase italic">Audífonos 450BT</h4>
                     <p class="text-3xl font-black text-yellow-400 my-4 italic">300 LPS</p>
@@ -98,8 +16,8 @@
                 </div>
 
                 <div class="bg-white/10 backdrop-blur-md rounded-3xl p-6 border border-white/10 text-center text-white group">
-                    <div class="bg-white/5 rounded-2xl py-8 mb-4 group-hover:bg-white/10 transition">
-                        <i class="fas fa-headphones-alt text-6xl text-red-400"></i>
+                    <div class="bg-white/5 rounded-2xl mb-4 group-hover:bg-white/10 transition aspect-square flex items-center justify-center overflow-hidden p-4">
+                        <img src="m6.jpg" alt="Audífonos M6 o Rutlos" class="max-h-full object-contain transform group-hover:scale-110 transition duration-300">
                     </div>
                     <h4 class="font-bold text-xl uppercase italic">M6 o Rutlos</h4>
                     <p class="text-3xl font-black text-yellow-400 my-4 italic">200 LPS <span class="text-sm font-normal">c/u</span></p>
@@ -107,9 +25,9 @@
                 </div>
 
                 <div class="bg-yellow-400 rounded-3xl p-6 border-4 border-yellow-200 text-center text-black relative group shadow-2xl shadow-yellow-400/20">
-                    <div class="absolute -top-3 -right-3 bg-red-600 text-white font-black px-4 py-2 rounded-xl rotate-12 animate-bounce">¡2x1!</div>
-                    <div class="bg-black/5 rounded-2xl py-8 mb-4 group-hover:bg-black/10 transition">
-                        <i class="fas fa-headset text-6xl text-black"></i>
+                    <div class="absolute -top-3 -right-3 bg-red-600 text-white font-black px-4 py-2 rounded-xl rotate-12 animate-bounce z-10">¡2x1!</div>
+                    <div class="bg-black/5 rounded-2xl mb-4 group-hover:bg-black/10 transition aspect-square flex items-center justify-center overflow-hidden p-4">
+                        <img src="airpods.jpg" alt="Z50 AirPods Pro2 2x1" class="max-h-full object-contain transform group-hover:scale-110 transition duration-300">
                     </div>
                     <h4 class="font-black text-xl uppercase italic leading-tight">Z50 AirPods Pro2</h4>
                     <p class="text-xs font-bold uppercase mb-2">¡Los dos por el precio de uno!</p>
@@ -120,48 +38,3 @@
             </div>
         </div>
     </section>
-
-    <section class="bg-white py-16 px-6">
-        <div class="container mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6">
-                    <h3 class="text-2xl font-black text-gray-800 uppercase italic border-b-4 border-blue-600 inline-block">Nuestra Ubicación</h3>
-                    <p class="text-gray-600 leading-relaxed font-medium">Estamos listos para atenderte en el punto más accesible del Barrio Concepción. ¡Ven a visitarnos!</p>
-                    <div class="bg-slate-50 p-6 rounded-2xl border-l-8 border-red-600 space-y-4">
-                        <p class="flex items-center gap-3 font-bold text-gray-700">
-                            <i class="fas fa-map-marker-alt text-red-600"></i> Barrio Concepción, frente a Auto Repuestos Universal.
-                        </p>
-                        <p class="flex items-center gap-3 font-bold text-green-600">
-                            <i class="fab fa-whatsapp text-xl"></i> WhatsApp: 3382-0697
-                        </p>
-                    </div>
-                </div>
-                <div class="rounded-3xl overflow-hidden h-72 shadow-2xl border-4 border-white">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.9576043132624!2d-87.21257142416037!3d14.079633886348616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa2f1c8a14f43%3A0x633534b3f114c000!2sBarrio%20Concepci%C3%B3n%2C%20Comayag%C3%BCela!5e0!3m2!1ses!2shn!4v1700000000000!5m2!1ses!2shn" 
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-black text-gray-600 py-6 text-center text-[10px] tracking-widest uppercase">
-        © 2026 Cyber Micedualess — Comayagüela, Honduras.
-    </footer>
-
-    <script>
-        function checkStatus() {
-            const now = new Date();
-            const hour = now.getHours();
-            const indicator = document.getElementById('status-indicator');
-            if (hour >= 8 && hour < 19) {
-                indicator.innerText = "● ABIERTO AHORA";
-                indicator.className = "text-[10px] font-bold px-2 py-0.5 rounded-full w-max mt-1 bg-green-100 text-green-700";
-            } else {
-                indicator.innerText = "○ CERRADO POR AHORA";
-                indicator.className = "text-[10px] font-bold px-2 py-0.5 rounded-full w-max mt-1 bg-red-100 text-red-700";
-            }
-        }
-        checkStatus();
-    </script>
-</body>
-</html>
